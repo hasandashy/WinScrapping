@@ -1,0 +1,61 @@
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe.config
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\WinScrapping.pdb
+D:\MaxWindowsProject\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Form1.resources
+D:\MaxWindowsProject\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Properties.Resources.resources
+D:\MaxWindowsProject\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.csproj.GenerateResource.Cache
+D:\MaxWindowsProject\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.exe
+D:\MaxWindowsProject\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.pdb
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\App.config
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\ExcelPackage.dll
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\HtmlAgilityPack.dll
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\ExcelPackage.pdb
+D:\MaxWindowsProject\WinScrapping\WinScrapping\bin\Debug\HtmlAgilityPack.pdb
+D:\MaxWindowsProject\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.csprojResolveAssemblyReference.cache
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe.config
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.exe
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.pdb
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\bin\Debug\App.config
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\bin\Debug\WinScrapping.pdb
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\bin\Debug\ExcelPackage.pdb
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\bin\Debug\HtmlAgilityPack.pdb
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.csprojResolveAssemblyReference.cache
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Form1.resources
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Properties.Resources.resources
+D:\My Project 2010\Hussen\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.csproj.GenerateResource.Cache
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe.config
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.exe
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\bin\Debug\App.config
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\bin\Debug\WinScrapping.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\bin\Debug\ExcelPackage.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\bin\Debug\HtmlAgilityPack.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.csprojResolveAssemblyReference.cache
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Form1.resources
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Properties.Resources.resources
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.csproj.GenerateResource.Cache
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\bin\Debug\WinScrapping.exe.config
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\obj\x86\Debug\WinScrapping.exe
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\obj\x86\Debug\WinScrapping.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\bin\Debug\App.config
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\bin\Debug\WinScrapping.exe
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\bin\Debug\WinScrapping.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\bin\Debug\ExcelPackage.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\bin\Debug\HtmlAgilityPack.pdb
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\obj\x86\Debug\WinScrapping.csprojResolveAssemblyReference.cache
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\obj\x86\Debug\WinScrapping.Form1.resources
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\obj\x86\Debug\WinScrapping.Properties.Resources.resources
+D:\My Project 2010\Hussen\WinScrapping 8-12-2013-2\WinScrapping - Copy\WinScrapping\obj\x86\Debug\WinScrapping.csproj.GenerateResource.Cache
+D:\Projects\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe.config
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.exe
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.pdb
+D:\Projects\WinScrapping\WinScrapping\bin\Debug\App.config
+D:\Projects\WinScrapping\WinScrapping\bin\Debug\WinScrapping.exe
+D:\Projects\WinScrapping\WinScrapping\bin\Debug\WinScrapping.pdb
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Form1.resources
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\WinScrapping.Properties.Resources.resources
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\WinScrapping\WinScrapping\obj\x86\Debug\GenerateResource.write.1.tlog
