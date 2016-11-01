@@ -1646,20 +1646,24 @@ namespace WinScrapping
                         worksheet.Cell(prodrowno, 37).Value = bulbType;
 
                         xlPackage.Save();
-                        WriteLog("scrapping complete");
+                        WriteLog("scrapping complete",htmlPath, "Log.txt");
                     }
 
+                }
+                else
+                {
+                    WriteLog("html count 0", htmlPath, "error.txt");
                 }
             }
             else
             {
-                WriteLog("html null");
+                WriteLog("html null",htmlPath,"error.txt");
             }
         }
 
-        void WriteLog(string msg)
+        void WriteLog(string msg, string htmlPath, string file)
         {
-            using (StreamWriter tw = new StreamWriter("Log.txt", true))
+            using (StreamWriter tw = new StreamWriter(file, true))
             {
                 tw.WriteLine("===========================" + msg + "=========================");
                 tw.WriteLine(htmlPath);
