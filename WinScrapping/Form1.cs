@@ -888,9 +888,9 @@ namespace WinScrapping
             string SKU = "";
             string UPC = "";
 
-             string finishType = string.Empty;
-                        string shadeType = string.Empty;
-                        string bulbType = string.Empty;
+            string finishType = "N/A";
+            string shadeType = "N/A";
+            string bulbType = "N/A";
 
             string Category = "";
             string Finish = "";
@@ -1229,48 +1229,65 @@ namespace WinScrapping
                     tables = doc.DocumentNode.SelectNodes("//table");
 
                     //HtmlNodeCollection blubTable = doc.DocumentNode.SelectNodes("//table[@class='detail_tbl bulb_tbl']");
-                    if (tables[1] != null)
+                    if (tables.Count() > 1)
                     {
-                       
-
-                        rows = tables[1].SelectNodes(".//tr");
-
-
-                        if (rows != null)
+                        if (tables[1] != null)
                         {
-                            for (int i = 0; i < rows.Count; ++i)
+                            rows = tables[1].SelectNodes(".//tr");
+                            if (rows != null)
                             {
-                                doc.LoadHtml(rows[i].InnerHtml);
-                                if (doc.DocumentNode.SelectSingleNode("//div[@type='Finish']") != null)
+                                for (int i = 0; i < rows.Count - 1; i++)
                                 {
-                                    resprodd = doc.DocumentNode.SelectSingleNode("//div[@type='Finish']");
-                                    lis = resprodd.SelectNodes("//div[@class='name']");
-                                    for (int t = 0; t < lis.Count; ++t)
+                                    try
                                     {
-                                        finishType = finishType + GetText(lis[i]) + ",";
-                                    }
-                                }
-                                else
-                                    if (doc.DocumentNode.SelectSingleNode("//div[@type='Shade']") != null)
-                                    {
-                                        resprodd = doc.DocumentNode.SelectSingleNode("//div[@type='Shade']");
-                                        lis = resprodd.SelectNodes("//div[@class='name']");
-                                        for (int t = 0; t < lis.Count; ++t)
+                                        if (rows[i].Id != "add_skus")
                                         {
-                                            shadeType = shadeType + GetText(lis[i]) + ",";
-                                        }
-                                    }
-                                    else
-                                        if (doc.DocumentNode.SelectSingleNode("//div[@type='Bulb_Type']") != null)
-                                        {
-                                            resprodd = doc.DocumentNode.SelectSingleNode("//div[@type='Bulb_Type']");
-                                            lis = resprodd.SelectNodes("//div[@class='name']");
-                                            for (int t = 0; t < lis.Count; ++t)
+                                            doc.LoadHtml(rows[i].InnerHtml);
+                                            if (doc.DocumentNode.SelectSingleNode("//div[@type='Finish']") != null)
                                             {
-                                                bulbType = bulbType + GetText(lis[i]) + ",";
+                                                resprodd = doc.DocumentNode.SelectSingleNode("//div[@type='Finish']");
+                                                lis = resprodd.SelectNodes("//div[@class='name']");
+                                                for (int t = 0; t < lis.Count; t++)
+                                                {
+                                                    if (finishType == "N/A")
+                                                    {
+                                                        finishType = string.Empty;
+                                                    }
+                                                    finishType = finishType + GetText(lis[t]) + ",";
+                                                }
+                                            }
+                                            else
+                                                if (doc.DocumentNode.SelectSingleNode("//div[@type='Shade']") != null)
+                                            {
+                                                resprodd = doc.DocumentNode.SelectSingleNode("//div[@type='Shade']");
+                                                lis = resprodd.SelectNodes("//div[@class='name']");
+                                                for (int t = 0; t < lis.Count; t++)
+                                                {
+                                                    if (shadeType == "N/A")
+                                                    {
+                                                        shadeType = string.Empty;
+                                                    }
+                                                    shadeType = shadeType + GetText(lis[t]) + ",";
+                                                }
+                                            }
+                                            else
+                                                    if (doc.DocumentNode.SelectSingleNode("//div[@type='Bulb_Type']") != null)
+                                            {
+                                                resprodd = doc.DocumentNode.SelectSingleNode("//div[@type='Bulb_Type']");
+                                                lis = resprodd.SelectNodes("//div[@class='name']");
+                                                for (int t = 0; t < lis.Count; t++)
+                                                {
+                                                    if (bulbType == "N/A")
+                                                    {
+                                                        bulbType = string.Empty;
+                                                    }
+                                                    bulbType = bulbType + GetText(lis[t]) + ",";
+                                                }
                                             }
                                         }
-
+                                    }
+                                    catch { }
+                                }
                             }
                         }
                     }
@@ -1529,9 +1546,9 @@ namespace WinScrapping
                     #endregion
 
                     //htmlPath = "http://www.lightingnewyork.com/post/product.cfm?wtd=rel&pr_id=5097&pr_collection=Elysburg&pr_vendor=2";
-                    htmlPath = "http://www.lightingnewyork.com/post/product.cfm?wtd=" + wtd + "&pr_id=" + pr_id + "&pr_collection=" + pr_collection + "&pr_vendor=" + pr_vendor + "";
+                   string _path = "http://www.lightingnewyork.com/post/product.cfm?wtd=" + wtd + "&pr_id=" + pr_id + "&pr_collection=" + pr_collection + "&pr_vendor=" + pr_vendor + "";
 
-                    html = PostPage(htmlPath, out msgText);
+                    html = PostPage(_path, out msgText);
                     if (html != null)
                     {
                         if (html.Length > 0)
@@ -1629,9 +1646,23 @@ namespace WinScrapping
                         worksheet.Cell(prodrowno, 37).Value = bulbType;
 
                         xlPackage.Save();
+                        WriteLog("scrapping complete");
                     }
 
                 }
+            }
+            else
+            {
+                WriteLog("html null");
+            }
+        }
+
+        void WriteLog(string msg)
+        {
+            using (StreamWriter tw = new StreamWriter("Log.txt", true))
+            {
+                tw.WriteLine("===========================" + msg + "=========================");
+                tw.WriteLine(htmlPath);
             }
         }
 
@@ -2270,7 +2301,7 @@ namespace WinScrapping
             }
 
 
-                #endregion
+            #endregion
 
 
 
